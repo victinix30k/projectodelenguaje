@@ -1,0 +1,218 @@
+body, html {
+   margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+}
+
+header {
+   background-color: #000000;
+   color: #fff;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 20px;
+}
+
+header .logo {
+   display: flex;
+   align-items: center;
+}
+
+header .logo img {
+   height: 40px;
+   margin-right: 10px;
+}
+
+header .logo span {
+   font-size: 24px;
+   color: #ffffff;
+}
+
+header .logo strong {
+   color: #FFA500; 
+}
+
+header nav ul {
+   list-style: none;
+   display: flex;
+   margin: 0;
+   padding: 0;
+}
+
+header nav ul li {
+   margin: 0 15px;
+}
+
+header nav ul li a {
+   color: #fff;
+   text-decoration: none;
+   font-size: 16px;
+}
+
+header .auth-buttons {
+   display: flex;
+}
+
+header .auth-buttons a {
+   color: #fff;
+   text-decoration: none;
+   padding: 8px 15px;
+   border-radius: 5px;
+   margin-left: 10px;
+   display: flex;
+   align-items: center;
+}
+
+header .auth-buttons .login {
+   background-color: #FFA500; 
+}
+
+header .auth-buttons .register {
+   background-color: #fff;
+   color: #FFA500; 
+   border: 1px solid #FFA500;
+}
+
+header .auth-buttons a i {
+   margin-right: 5px;
+}
+
+.contenedor-tarjetas {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr); 
+   gap: 20px; 
+   padding: 20px;
+}
+
+.container {
+   background-color: #fff;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   overflow: hidden;
+   display: flex;
+   transition: transform 0.3s ease;
+}
+
+.container:hover {
+   transform: scale(1.05);
+}
+
+.left {
+   flex: 1;
+}
+
+.left img {
+   width: 100%;
+   filter: grayscale(100%); 
+   transition: filter 0.3s ease, transform 0.3s ease; 
+}
+
+.left img:hover {
+   filter: grayscale(0%); 
+   transform: scale(1.1); 
+}
+
+.right {
+   flex: 2;
+   padding: 20px;
+}
+
+.tag {
+   background-color: #FFA500;
+   border-radius: 5px;
+   color: #fff;
+   display: inline-block;
+   padding: 5px 10px;
+   margin-bottom: 10px;
+}
+
+.titulo {
+   font-size: 24px;
+   margin: 10px 0;
+}
+
+.descripcion {
+   font-size: 14px;
+   margin-bottom: 20px;
+}
+
+.precios-y-colores {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 20px;
+}
+
+.precios {
+   display: flex;
+   flex-direction: column;
+}
+
+.precio {
+   font-size: 20px;
+   font-weight: bold;
+   color: #000000;
+}
+
+.rebaja {
+   font-size: 14px;
+   color: #888;
+   text-decoration: line-through;
+}
+
+.colores i {
+   margin-right: 5px;
+}
+
+.añadir_a_carro a {
+   background-color: #000000;
+   color: #fff;
+   padding: 10px 20px;
+   border-radius: 5px;
+   text-decoration: none;
+   display: inline-block;
+   transition: background-color 0.3s ease;
+}
+
+.añadir_a_carro a:hover {
+   background-color: #e69500;
+}
+
+footer {
+   background-color: #000000;
+   color: #fff;
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer-section {
+   flex: 1;
+   margin: 0 10px;
+}
+
+.footer-section h3 {
+   margin-top: 0;
+}
+
+.footer-section ul {
+   list-style: none;
+   padding: 0;
+}
+
+.footer-section ul li {
+   margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+   color: #fff;
+   text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+   text-decoration: underline;
+}
+
+.footer-section ul li a i {
+   margin-right: 5px;
+}

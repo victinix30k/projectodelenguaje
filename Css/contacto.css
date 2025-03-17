@@ -1,0 +1,197 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+header .logo span {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+header .logo strong {
+    color: #FFA500; /* Color naranja */
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header .auth-buttons {
+    display: flex;
+}
+
+header .auth-buttons a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+header .auth-buttons .login {
+    background-color: #FFA500; /* Color naranja */
+}
+
+header .auth-buttons .register {
+    background-color: #fff;
+    color: #FFA500; /* Color naranja */
+    border: 1px solid #FFA500;
+}
+
+header .auth-buttons a i {
+    margin-right: 5px;
+}
+
+.main-content {
+    flex: 1;
+}
+
+.contacto-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.info-contacto, .formulario-contacto {
+    flex: 1;
+    margin: 10px;
+}
+
+.info-contacto h2, .info-contacto h3 {
+    margin-top: 0;
+}
+
+.redes-sociales {
+    display: flex;
+    align-items: center;
+}
+
+.logo-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.logo-redes {
+    width: 100%;
+    height: auto;
+}
+
+.formulario-contacto form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-contacto label {
+    margin-top: 10px;
+}
+
+.formulario-contacto input, .formulario-contacto textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.checkbox-container input {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #FFA500;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #e69500;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.footer-section h3 {
+    margin-top: 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-section ul li a i {
+    margin-right: 5px;
+}
