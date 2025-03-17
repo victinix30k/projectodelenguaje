@@ -29,3 +29,5 @@ Hacer clic derecho en main.html y seleccionar Open with Live Server.
 Autor
 
 Víctor Manuel Guadalupe Gonzalez - Desarrollador del proyecto.
+
+host del projecto : https://github.com/victinix30k/projectodelenguaje.git
