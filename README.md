@@ -5,10 +5,10 @@ Este proyecto es una página web simple para una tienda de zapatos, desarrollada
 Estructura del Proyecto
 
 Proyecto-Tienda-Zapatos/
-│-- projecto         # Archivos HTML
-│-- css             # Archivos CSS
-│-- projecto_imagen     # Imágenes usadas en la página
-│-- README.md      # Documentación del proyecto
+│-- projecto/          # Archivos HTML
+│-- css/               # Archivos CSS
+│-- projecto_imagen/   # Imágenes usadas en la página
+│-- README.md          # Documentación del proyecto
 
 Tecnologías Utilizadas
 
